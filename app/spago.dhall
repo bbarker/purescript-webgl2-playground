@@ -11,6 +11,7 @@ You can edit this file as you like.
   , "foreign-object"
   , "naturals"
   , "profunctor"
+  , "webgl2-raw"
   ]
 , packages =
     ../packages.dhall
