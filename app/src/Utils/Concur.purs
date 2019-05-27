@@ -4,7 +4,6 @@ import Concur.React.Run                     (runWidgetInDom)
 import Concur.React.DOM                     (button, text)
 
 -- TODO: add Reader to read which element id to use.
-
 userError :: String -> Effect Unit
 userError :: msg = do
   errorWidg <- userErrorWidget msg
